@@ -1,0 +1,80 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 4px;
+}
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* LcsVisualizer.css */
+/* 这是你的样式文件，确保已经正确引入到你的组件中 */
+
+/* 创建一个容器，使用 Flex 布局，并添加阴影 */
+.container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    padding: 10px; /* 可选：为容器添加一些内边距 */
+  }
+  
+  
+  .lcs-table {
+    border-collapse: collapse;
+    /* 添加其他你需要的表格样式 */
+  }
+  
+  /* 设置 sequence 行的阴影样式 */
+  .sequence-row {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  }
+  
+  /* 设置 sequence 单元格的样式 */
+  .sequence-cell {
+    font-weight: bold;
+  }
+  
+  /* 设置灰色单元格的样式 */
+  .gray-cell {
+    background-color: #ccc; /* 设置灰色背景色 */
+  }
+  
+/* Set style for cells that are a match */
+.match-cell {
+    background-color: yellow; /* Set yellow background color for match */
+  }
+  
